@@ -1,0 +1,13 @@
+.cardContainer {
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+  
+  .InfoBox {
+    text-align: center;
+  }
+  

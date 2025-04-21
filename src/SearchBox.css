@@ -1,0 +1,26 @@
+
+.SearchBox {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+ 
+  @media (max-width: 1024px) and (min-width: 768px) {
+    .SearchBox {
+      display: flex;
+      justify-content: center; 
+      gap: 10px;
+    }
+  
+    .SearchBox form {
+      display: flex;
+      flex-direction: row; 
+      gap: 10px; 
+    }
+  
+    .SearchBox form > input,
+    .SearchBox form > button {
+      width: 48%; 
+    }
+  }
+  
